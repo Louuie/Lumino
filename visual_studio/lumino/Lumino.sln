@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37111.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lumino", "Lumino.vcxproj", "{B5C9E943-30DF-4DFD-8D37-2F5C58DB9F36}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0500C7C4-8D33-44CF-8181-91E981FE7E53} = {0500C7C4-8D33-44CF-8181-91E981FE7E53}
+		{68FDA35C-B653-4052-AF7D-0E1090F29E21} = {68FDA35C-B653-4052-AF7D-0E1090F29E21}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LuminoGUI", "..\luminogui\LuminoGUI.vcxproj", "{84F6C732-536C-4F4A-A6CE-94B8AAA42AA1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lumino_logger", "..\lumino_logger\lumino_logger.vcxproj", "{0500C7C4-8D33-44CF-8181-91E981FE7E53}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "twitch_web_socket", "..\twitch_web_socket\twitch_web_socket.vcxproj", "{68FDA35C-B653-4052-AF7D-0E1090F29E21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5C9E943-30DF-4DFD-8D37-2F5C58DB9F36}.Debug|x64.ActiveCfg = Debug|x64
+		{B5C9E943-30DF-4DFD-8D37-2F5C58DB9F36}.Debug|x64.Build.0 = Debug|x64
+		{B5C9E943-30DF-4DFD-8D37-2F5C58DB9F36}.Release|x64.ActiveCfg = Release|x64
+		{B5C9E943-30DF-4DFD-8D37-2F5C58DB9F36}.Release|x64.Build.0 = Release|x64
+		{84F6C732-536C-4F4A-A6CE-94B8AAA42AA1}.Debug|x64.ActiveCfg = Debug|x64
+		{84F6C732-536C-4F4A-A6CE-94B8AAA42AA1}.Debug|x64.Build.0 = Debug|x64
+		{84F6C732-536C-4F4A-A6CE-94B8AAA42AA1}.Release|x64.ActiveCfg = Release|x64
+		{84F6C732-536C-4F4A-A6CE-94B8AAA42AA1}.Release|x64.Build.0 = Release|x64
+		{0500C7C4-8D33-44CF-8181-91E981FE7E53}.Debug|x64.ActiveCfg = Debug|x64
+		{0500C7C4-8D33-44CF-8181-91E981FE7E53}.Debug|x64.Build.0 = Debug|x64
+		{0500C7C4-8D33-44CF-8181-91E981FE7E53}.Release|x64.ActiveCfg = Release|x64
+		{0500C7C4-8D33-44CF-8181-91E981FE7E53}.Release|x64.Build.0 = Release|x64
+		{68FDA35C-B653-4052-AF7D-0E1090F29E21}.Debug|x64.ActiveCfg = Debug|x64
+		{68FDA35C-B653-4052-AF7D-0E1090F29E21}.Debug|x64.Build.0 = Debug|x64
+		{68FDA35C-B653-4052-AF7D-0E1090F29E21}.Release|x64.ActiveCfg = Release|x64
+		{68FDA35C-B653-4052-AF7D-0E1090F29E21}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24241D2A-72CC-4CC0-8B5B-2CD1CDB2D45D}
+	EndGlobalSection
+EndGlobal

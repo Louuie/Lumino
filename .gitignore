@@ -1,0 +1,12 @@
+.vs/
+.vscode/
+out/
+build/
+build_release/
+*Release/
+*Debug/
+*x64/
+*.bak
+*.user
+*_venv/
+log.txt
