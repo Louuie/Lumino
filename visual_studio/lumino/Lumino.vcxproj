@@ -118,6 +118,12 @@
     <ProjectReference Include="..\luminogui\LuminoGUI.vcxproj">
       <Project>{84f6c732-536c-4f4a-a6ce-94b8aaa42aa1}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\lumino_logger\lumino_logger.vcxproj">
+      <Project>{0500c7c4-8d33-44cf-8181-91e981fe7e53}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\twitch_irc\twitch_irc.vcxproj">
+      <Project>{bfa5b800-5182-42ea-ba53-3ae52b41c09b}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

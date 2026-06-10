@@ -15,7 +15,7 @@ namespace Lumino
         case LogLevel::DEBUG:    return "DEBUG";
         case LogLevel::INFO:     return "INFO";
         case LogLevel::WARNING:  return "WARNING";
-        case LogLevel::ERROR:    return "ERROR";
+        case LogLevel::Error:      return "ERROR";
         case LogLevel::CRITICAL: return "CRITICAL";
         default:                 return "UNKNOWN";
         }
@@ -33,7 +33,7 @@ namespace Lumino
         case LogLevel::DEBUG:    color = "\033[36m"; break;   // Cyan
         case LogLevel::INFO:     color = "\033[32m"; break;   // Green
         case LogLevel::WARNING:  color = "\033[33m"; break;   // Yellow
-        case LogLevel::ERROR:    color = "\033[31m"; break;   // Red
+        case LogLevel::Error:      color = "\033[31m"; break;   // Red
         case LogLevel::CRITICAL: color = "\033[1;31m"; break; // Bright Red
         }
 

@@ -12,7 +12,7 @@ namespace Lumino
         DEBUG,
         INFO,
         WARNING,
-        ERROR,
+        Error,
         CRITICAL
     };
 
@@ -52,7 +52,7 @@ namespace Lumino
     LOG(logger, Lumino::LogLevel::WARNING, message)
 
 #define LOG_ERROR(logger, message) \
-    LOG(logger, Lumino::LogLevel::ERROR, message)
+    LOG(logger, Lumino::LogLevel::Error, message)
 
 #define LOG_CRITICAL(logger, message) \
     LOG(logger, Lumino::LogLevel::CRITICAL, message)
