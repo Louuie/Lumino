@@ -76,11 +76,11 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(ProjectDir)../../apps/luminogui;C:\Qt\6.9.3\msvc2022_64\include;C:\Qt\6.9.3\msvc2022_64\include\QtGui;C:\Qt\6.9.3\msvc2022_64\include\QtWidgets;C:\Qt\6.9.3\msvc2022_64\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)../../apps;C:\Qt\6.9.3\msvc2022_64\include;C:\Qt\6.9.3\msvc2022_64\include\QtGui;C:\Qt\6.9.3\msvc2022_64\include\QtWidgets;C:\Qt\6.9.3\msvc2022_64\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>LuminoGUI.lib;Qt6Cored.lib;Qt6Guid.lib;Qt6Widgetsd.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:\Qt\6.9.3\msvc2022_64\lib;$(SolutionDir)x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>LuminoGUI.lib;Qt6Cored.lib;Qt6Guid.lib;Qt6Widgetsd.lib;twitch_irc.lib;lumino_logger.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Qt\6.9.3\msvc2022_64\lib;$(SolutionDir)\x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">

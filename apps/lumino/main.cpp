@@ -1,7 +1,8 @@
 #define NOMINMAX
 #include <QApplication>
+#include "luminogui/LuminoGUI.h"
+#include "twitch_irc/twitch_irc.hpp"
 #include <Windows.h>
-#include "LuminoGUI.h"
 
 int main(int argc, char *argv[])
 {
@@ -14,6 +15,7 @@ int main(int argc, char *argv[])
     Lumino::LuminoGUI mainWindow;
     const QRect sr = mainWindow.screen()->availableGeometry();
     const QRect wr({}, mainWindow.frameSize().boundedTo(sr.size()));
+    irc_handler();
     mainWindow.resize(wr.size());
     mainWindow.move(sr.center() - wr.center());
     mainWindow.show();

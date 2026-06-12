@@ -40,21 +40,21 @@ namespace Lumino
 } // namespace Lumino
 
 #define LOG(logger, level, message) \
-    (logger).log((message), (level), __FILE__, __LINE__)
+    (logger).log((message), (level))
 
 #define LOG_DEBUG(logger, message) \
-    LOG(logger, Lumino::LogLevel::DEBUG, message)
+    LOG((logger), Lumino::LogLevel::DEBUG, (message))
 
 #define LOG_INFO(logger, message) \
-    LOG(logger, Lumino::LogLevel::INFO, message)
+    LOG((logger), Lumino::LogLevel::INFO, (message))
 
 #define LOG_WARNING(logger, message) \
-    LOG(logger, Lumino::LogLevel::WARNING, message)
+    LOG((logger), Lumino::LogLevel::WARNING, (message))
 
 #define LOG_ERROR(logger, message) \
-    LOG(logger, Lumino::LogLevel::Error, message)
+    LOG((logger), Lumino::LogLevel::Error, (message))
 
 #define LOG_CRITICAL(logger, message) \
-    LOG(logger, Lumino::LogLevel::CRITICAL, message)
+    LOG((logger), Lumino::LogLevel::CRITICAL, (message))
 
 #endif // LOGGER_H_
