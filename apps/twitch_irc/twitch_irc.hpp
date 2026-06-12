@@ -1,6 +1,6 @@
 #pragma once
-
 #include <string>
+#include <cstdlib>
 #include <boost/asio.hpp>
 #include "lumino_logger/lumino_logger.h"
 
